@@ -26,11 +26,12 @@
   --input-bg: rgba(17,24,32,0.7);
 }
 *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent;}
-html,body{height:100%;overflow:hidden;}
+html{height:100%;}
 body{
   font-family:'Barlow',sans-serif;
   background:var(--ink);
   color:var(--white);
+  min-height:100%;
   display:flex;flex-direction:column;
   background-image:
     radial-gradient(ellipse 80% 40% at 50% -10%, rgba(232,160,32,0.07) 0%, transparent 60%),
