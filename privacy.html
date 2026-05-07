@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy – BCPS Field Log</title>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink:#111820; --ink-mid:#1a2535; --ink-card:rgba(26,37,53,0.95);
+    --gold:#e8a020; --gold-dark:#c4861a; --gold-glow:rgba(232,160,32,0.10);
+    --gold-border:rgba(232,160,32,0.3); --slate:#8fa5c0;
+    --border:rgba(143,165,192,0.18); --white:#f0f4f8; --r:8px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html,body{min-height:100%;background:var(--ink);color:var(--white);font-family:'Barlow',sans-serif;
+    background-image:radial-gradient(ellipse 80% 40% at 50% -10%,rgba(232,160,32,0.07) 0%,transparent 60%);}
+  header{background:linear-gradient(135deg,var(--ink-mid),var(--ink));border-bottom:3px solid var(--gold);
+    padding:20px 24px;display:flex;align-items:center;gap:14px;}
+  .brand-badge{background:var(--gold);color:var(--ink);font-family:'Barlow Condensed',sans-serif;
+    font-weight:900;font-size:14px;letter-spacing:1px;padding:6px 10px;border-radius:5px;line-height:1.2;}
+  .brand-text h1{font-family:'Barlow Condensed',sans-serif;font-size:22px;font-weight:800;line-height:1;}
+  .brand-text p{font-size:10px;color:var(--slate);letter-spacing:2px;text-transform:uppercase;margin-top:2px;}
+  main{max-width:720px;margin:0 auto;padding:40px 24px 80px;}
+  .page-title{font-family:'Barlow Condensed',sans-serif;font-size:32px;font-weight:900;color:var(--gold);
+    letter-spacing:1px;margin-bottom:6px;}
+  .page-sub{font-size:12px;color:var(--slate);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:32px;
+    padding-bottom:20px;border-bottom:1px solid var(--border);}
+  .section{background:var(--ink-card);border:1px solid var(--border);border-radius:var(--r);
+    padding:20px 22px;margin-bottom:16px;}
+  .section h2{font-family:'Barlow Condensed',sans-serif;font-size:14px;font-weight:700;letter-spacing:2px;
+    text-transform:uppercase;color:var(--gold);margin-bottom:10px;display:flex;align-items:center;gap:8px;}
+  .section h2::before{content:'';display:inline-block;width:3px;height:14px;background:var(--gold);border-radius:2px;}
+  .section p{font-size:14px;line-height:1.7;color:var(--white);opacity:0.85;}
+  .section p+p{margin-top:10px;}
+  ul{margin-top:8px;padding-left:18px;}
+  ul li{font-size:14px;line-height:1.7;color:var(--white);opacity:0.85;margin-bottom:4px;}
+  .contact-box{background:var(--gold-glow);border:1px solid var(--gold-border);border-radius:var(--r);
+    padding:14px 18px;margin-top:8px;}
+  .contact-box p{font-size:13px;color:var(--slate);}
+  .contact-box strong{color:var(--gold);}
+  footer{text-align:center;font-size:11px;color:var(--slate);padding:20px;letter-spacing:1px;
+    border-top:1px solid var(--border);max-width:720px;margin:0 auto;}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="brand-badge">BCPS</div>
+  <div class="brand-text">
+    <h1>Barton Creek Property Solutions</h1>
+    <p>Field Daily Log System</p>
+  </div>
+</header>
+
+<main>
+  <div class="page-title">Privacy Policy</div>
+  <div class="page-sub">Effective Date: May 7, 2026 &nbsp;·&nbsp; BCPS Field Log Application</div>
+
+  <div class="section">
+    <h2>Overview</h2>
+    <p>This Privacy Policy describes how Barton Creek Property Solutions ("BCPS," "we," "us") handles information in connection with the BCPS Field Log application. This is an internal business tool used exclusively by BCPS staff and authorized personnel for daily field reporting and project management.</p>
+  </div>
+
+  <div class="section">
+    <h2>Information We Collect</h2>
+    <p>The BCPS Field Log app collects and stores the following types of information entered by authorized users:</p>
+    <ul>
+      <li>Daily field log entries (project, date, crew, work performed, materials, incidents)</li>
+      <li>Punch list items and completion status</li>
+      <li>Task assignments and project data</li>
+      <li>Digital signatures captured for sign-off workflows</li>
+      <li>Photos uploaded by users for site documentation</li>
+      <li>User names and roles entered by administrators</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>How We Use Information</h2>
+    <p>All data collected by this application is used solely for internal construction project management and daily field reporting purposes. Specifically:</p>
+    <ul>
+      <li>To track daily site activity, manpower, and work performed</li>
+      <li>To manage punch lists and project task assignments</li>
+      <li>To generate and archive field reports for internal records</li>
+      <li>To back up submitted reports to authorized Dropbox storage</li>
+    </ul>
+    <p>We do not use this data for advertising, marketing, or any commercial purpose outside of BCPS internal operations.</p>
+  </div>
+
+  <div class="section">
+    <h2>Data Storage</h2>
+    <p>Data entered into the BCPS Field Log app is stored locally in the user's browser (via localStorage) and optionally backed up to a private Dropbox account controlled by BCPS. No data is transmitted to any third-party server other than Dropbox when the backup feature is enabled by an administrator.</p>
+    <p>Dropbox integration uses OAuth 2.0 authentication. We do not store Dropbox account credentials — only an access token provided by Dropbox after authorization.</p>
+  </div>
+
+  <div class="section">
+    <h2>Dropbox Integration</h2>
+    <p>When the Dropbox backup feature is enabled, submitted field reports are saved as JSON files to a designated BCPS folder in the connected Dropbox account. This integration is:</p>
+    <ul>
+      <li>Authorized only by an administrator via the Admin panel</li>
+      <li>Limited to writing report files — the app does not read, delete, or modify other Dropbox content</li>
+      <li>Governed by Dropbox's own Privacy Policy and Terms of Service</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Who Has Access</h2>
+    <p>The BCPS Field Log app is restricted to authorized BCPS employees and subcontractors. Access to the Admin panel is protected by a password set by BCPS administration. We do not make this application or its data available to the general public.</p>
+  </div>
+
+  <div class="section">
+    <h2>Data Sharing</h2>
+    <p>We do not sell, trade, rent, or otherwise share any data collected through this application with third parties, except as required by law or as necessary to operate authorized integrations (e.g., Dropbox) explicitly enabled by BCPS administration.</p>
+  </div>
+
+  <div class="section">
+    <h2>Contact</h2>
+    <p>For questions about this privacy policy or data practices, contact:</p>
+    <div class="contact-box">
+      <p><strong>Barton Creek Property Solutions</strong></p>
+      <p>Internal business application — authorized personnel only.</p>
+    </div>
+  </div>
+
+</main>
+
+<footer>© 2026 Barton Creek Property Solutions · Internal Use Only</footer>
+
+</body>
+</html>
