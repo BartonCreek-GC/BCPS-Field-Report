@@ -82,24 +82,24 @@
       <li>To track daily site activity, manpower, and work performed</li>
       <li>To manage punch lists and project task assignments</li>
       <li>To generate and archive field reports for internal records</li>
-      <li>To back up submitted reports to authorized Dropbox storage</li>
+      <li>To back up submitted reports to an authorized Google Drive account</li>
     </ul>
     <p>We do not use this data for advertising, marketing, or any commercial purpose outside of BCPS internal operations.</p>
   </div>
 
   <div class="section">
     <h2>Data Storage</h2>
-    <p>Data entered into the BCPS Field Log app is stored locally in the user's browser (via localStorage) and optionally backed up to a private Dropbox account controlled by BCPS. No data is transmitted to any third-party server other than Dropbox when the backup feature is enabled by an administrator.</p>
-    <p>Dropbox integration uses OAuth 2.0 authentication. We do not store Dropbox account credentials — only an access token provided by Dropbox after authorization.</p>
+    <p>Data entered into the BCPS Field Log app is stored locally in the user's browser (via localStorage) and optionally backed up to a private Google Drive account controlled by BCPS. No data is transmitted to any third-party server other than Google when the backup feature is enabled by an administrator.</p>
+    <p>Google Drive integration uses OAuth 2.0 authentication. We do not store Google account credentials — only an access token provided by Google after authorization.</p>
   </div>
 
   <div class="section">
-    <h2>Dropbox Integration</h2>
-    <p>When the Dropbox backup feature is enabled, submitted field reports are saved as JSON files to a designated BCPS folder in the connected Dropbox account. This integration is:</p>
+    <h2>Google Drive Integration</h2>
+    <p>When the Google Drive backup feature is enabled, submitted field reports are saved as JSON files to a designated <strong>BCPS Field Logs</strong> folder in the connected Google Drive account, organized by job name and date. This integration is:</p>
     <ul>
       <li>Authorized only by an administrator via the Admin panel</li>
-      <li>Limited to writing report files — the app does not read, delete, or modify other Dropbox content</li>
-      <li>Governed by Dropbox's own Privacy Policy and Terms of Service</li>
+      <li>Scoped to the <code>drive.file</code> permission — the app can only access files it creates and cannot read, delete, or modify any other Google Drive content</li>
+      <li>Governed by Google's own Privacy Policy and Terms of Service</li>
     </ul>
   </div>
 
@@ -110,7 +110,7 @@
 
   <div class="section">
     <h2>Data Sharing</h2>
-    <p>We do not sell, trade, rent, or otherwise share any data collected through this application with third parties, except as required by law or as necessary to operate authorized integrations (e.g., Dropbox) explicitly enabled by BCPS administration.</p>
+    <p>We do not sell, trade, rent, or otherwise share any data collected through this application with third parties, except as required by law or as necessary to operate authorized integrations (e.g., Google Drive) explicitly enabled by BCPS administration.</p>
   </div>
 
   <div class="section">
